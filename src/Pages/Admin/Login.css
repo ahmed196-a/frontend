@@ -9,7 +9,7 @@
 
 /* Header Styles */
 .admin-header {
-  background-color: #d32f2f; /* Changed to red */
+  background-color:  rgba(0, 106, 193, 0.95); /* Changed to red */
   color: white;
   padding: 1rem 2rem;
   text-align: center;
@@ -60,7 +60,7 @@
 }
 
 .admin-login-title {
-  color: #d32f2f; /* Changed to red */
+  color:  rgba(0, 106, 193, 0.95); /* Changed to red */
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -102,11 +102,11 @@
 
 .admin-input-field:focus {
   outline: none;
-  border-color: #d32f2f; /* Changed to red */
+  border-color:  rgba(0, 106, 193, 0.95); /* Changed to red */
 }
 
 .admin-login-button {
-  background-color: #d32f2f; /* Changed to red */
+  background-color:  rgba(0, 106, 193, 0.95); /* Changed to red */
   color: white;
   border: none;
   padding: 0.8rem;
@@ -119,14 +119,14 @@
 }
 
 .admin-login-button:hover {
-  background-color: #b71c1c; /* Darker red for hover */
+  background-color: #331cb7; /* Darker red for hover */
 }
 
 /* Footer */
 .admin-login-footer {
   text-align: center;
   padding: 1rem;
-  background-color: #d32f2f; /* Changed to red */
+  background-color:  rgba(0, 106, 193, 0.95); /* Changed to red */
   color: #ffffff;
   font-size: 0.8rem;
 }
@@ -148,7 +148,7 @@
 }
 
 .password-toggle:hover {
-  color: #d32f2f;
+  color:  rgba(0, 106, 193, 0.95);
 }
 
 .password-toggle svg {
