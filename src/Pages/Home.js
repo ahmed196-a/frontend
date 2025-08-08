@@ -464,7 +464,7 @@ const Home = () => {
           </div>
           {services.length > 3 && (
             <button
-              className="show-more-btn red-theme"
+              className="show-more-btn"
               onClick={() => setShowAllServices(!showAllServices)}
             >
               {showAllServices ? "Show Less" : "Show More"}
