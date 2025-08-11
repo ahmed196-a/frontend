@@ -117,7 +117,7 @@ const Home = () => {
     },
     {
       title: "Tympanometry",
-      image: require("../Assets/Images/tympanometry.png"),
+      image: require("../Assets/Images/tympanometry.jpg"),
       description:
         "Tympanometry is a quick test we offer to assess middle ear health. It helps diagnose infections, fluid buildup, or eardrum issues accurately.",
     },
@@ -751,11 +751,6 @@ const Home = () => {
                 <li>
                   <a href="#services" className="footer-link">
                     Pediatric Audiology
-                  </a>
-                </li>
-                <li>
-                  <a href="#services" className="footer-link">
-                    Ear Wax Removal
                   </a>
                 </li>
               </ul>
