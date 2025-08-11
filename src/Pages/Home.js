@@ -333,7 +333,7 @@ const Home = () => {
           <div className="text-center mb-5">
             <h2>Why Choose MK Audiology?</h2>
             <p className="lead">
-              Pakistan's trusted hearing health specialists since 2010
+              Pakistan's trusted hearing health specialists 
             </p>
           </div>
 
@@ -348,7 +348,7 @@ const Home = () => {
                       size="2x"
                     />
                   </div>
-                  <h4>15+ Years Experience</h4>
+                  <h4>Experience</h4>
                   <p>
                     Providing exceptional hearing care to thousands of satisfied
                     patients.
@@ -823,7 +823,7 @@ const Home = () => {
         className="whatsapp-float"
         onClick={() =>
           window.open(
-            "https://wa.me/923461251701?text=Hello%20MK%20Audiology,%20I%20have%20a%20question",
+            "https://wa.me/923475234091?text=Hello%20MK%20Audiology,%20I%20have%20a%20question",
             "_blank"
           )
         }
