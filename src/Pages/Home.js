@@ -176,7 +176,7 @@ const Home = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch("https://formspree.io/f/myzpbvan", {
+      const response = await fetch("https://formspree.io/f/manbaknv", {
         // Replace with your form ID
         method: "POST",
         headers: {
