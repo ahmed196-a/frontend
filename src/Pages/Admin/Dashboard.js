@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   const fetchImages = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/getImageAndDetails`);
+      const response = await fetch(`https://backendapi-khaki.vercel.app/getImageAndDetails`);
       const data = await response.json();
       setImages(data);
     } catch (error) {
@@ -79,7 +79,7 @@ const Dashboard = () => {
       }
 
       const response = await fetch(
-        `http://localhost:5000/deleteImageAndDetails/${id}`,
+        `https://backendapi-khaki.vercel.app/deleteImageAndDetails/${id}`,
         {
           method: "DELETE",
           headers: {
