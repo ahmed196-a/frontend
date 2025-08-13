@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   const fetchImages = async () => {
     try {
-      const response = await fetch(`https://backend-eta-mauve.vercel.app//getImageAndDetails`);
+      const response = await fetch(`https://backend-eta-mauve.vercel.app/getImageAndDetails`);
       const data = await response.json();
       setImages(data);
     } catch (error) {
