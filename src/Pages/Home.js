@@ -36,7 +36,7 @@ const Home = () => {
 
   const fetchImages = async () => {
     try {
-      const response = await fetch("http://localhost:5000/getImageAndDetails");
+      const response = await fetch("https://backend-kappa-sandy-79.vercel.app/getImageAndDetails");
       const data = await response.json();
       // Store both URL and public_id for each image
 
